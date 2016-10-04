@@ -12,4 +12,4 @@ For my bonus section for the project, I additionally created a function to sort 
 All of the code is interchangeable, and a new list of names with different delimiters could easily be passed in and sorted as well.
  
 You can also see my GitHub project page for more information.
-[Project Page] (https://web-advanced-fall-2016.github.io/assignment-1-drmartens/)
+[Project Page] (https://web-advanced-fall-2016.github.io/assignment1-Dana-Martens/)
