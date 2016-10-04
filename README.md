@@ -1,6 +1,7 @@
 # MFADT Most Wanted
 
 ## Search Element to Find & Display Names on Input
+[MFADT Most Wanted](https://github.com/web-advanced-fall-2016/assignment-1-drmartens/blob/master/index.html)
 See more about the requirements here:
 * [**A Search Field Element With Dropdown for Suggestions From Static Data**](https://github.com/web-advanced-fall-2016/assignment-1-spec/blob/master/README-SEARCH-SUGGESTION-DROPDOWN.md)
 
