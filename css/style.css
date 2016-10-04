@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway:400,700');
+@import 'https://fonts.googleapis.com/css?family=Black+Ops+One';
+
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+
+#searchAndResults {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 30px;
+    position: relative;
+}
+
+#searchBoxContainer>a {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    color:ffffff;
+   /* margin-left: 20px;*/
+    margin-top: 90px;
+    border: 1px solid #b5e854;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: 300ms;
+}
+
+.title{
+    font-size: 56px;
+    text-transform: capitalize;
+    margin: 10px auto 10px auto;
+    font-family: 'Black Ops One', cursive;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title span:not(:last-child) {
+    margin-right: 3px;
+}
+
+.title span:nth-child(1) {
+    color: #b5e854;
+    margin-left: 5px;}
+
+.title span:nth-child(2) {
+    color: #cae288;
+    margin-left: 5px;}
+
+.title span:nth-child(3) {
+    color: #d7e5b7;
+    margin-left: 5px;
+}
+
+#searchBoxContainer {
+	position:relative;
+    margin-left:15%;
+}
+
+#resultsDiv {
+	position:relative;
+    display:inline-block;
+}
+
+#listSpan {
+    color:#b5e854;
+}
+
+#resultsDiv li{
+    padding: 10px 0;
+    border-bottom: 1px #b5e854 dashed;
+    list-style: none;
+    overflow: auto;
+    color:#ffffff;
+
+}
+
+#resultsDiv li img{
+    /*width:100%;*/
+  margin: 10px 0px 0px 0px;
+    /*border: solid #ccc 1px;*/
+}
+
+
+
+/*.list-left{
+    float: left;
+    width: 20%;
+}
+.list-left img{
+    width:100%;
+    padding: 5px;
+    border: solid #ccc 1px;
+}
+
+.list-right{
+    float: right;
+    width: 78%;
+}*/
+
+#searchInput {
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 80%;
+    padding: 11px 7px;
+    padding-right: 43px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #b5e854;
+    border-bottom-color: #d7e5b7;
+    font-size: 1.6em;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.5), 0 0 0 3px #d7e5b7;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.5), 0 0 0 3px #d7e5b7;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,1), 0 0 0 3px #d7e5b7;
+}
