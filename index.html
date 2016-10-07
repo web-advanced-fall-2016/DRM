@@ -1,38 +1,37 @@
 <html>
+
 <head>
-<title>MFADT Most Wanted</title>
-<link rel=stylesheet type="text/css" href="css/style.css">
+    <title>MFADT Most Wanted</title>
+    <link rel=stylesheet type="text/css" href="css/style.css">
 </head>
+
 <body>
-<!--Div to hold search box and results-->
+    <!--Div to hold search box and results-->
+    <section id="searchAndResults">
+        <div class="title">
+            <span>MFADT</span>
+            <span>Most</span>
+            <span>Wanted</span>
+
+        </div>
+        <div id="loading">
+            <!-- <img id = "loadingImg" src = "http://www.iceflowstudios.com/v3/wp-content/uploads/2013/01/LoadingCircle_finalani.gif" alt ="Loading..." visibility = "visible"/> -->
+        </div>
 
 
+        <div id="searchBoxContainer" class="dropdown-content">
+            <input type="text" placeholder="Find your target..." id="searchInput"></div>
 
-<section id = "searchAndResults">
-<div class="title">
-		<span>MFADT</span>
-		<span>Most</span>
-		<span>Wanted</span>
-
-</div>
-<div id = "loading">
-<!-- <img id = "loadingImg" src = "http://www.iceflowstudios.com/v3/wp-content/uploads/2013/01/LoadingCircle_finalani.gif" alt ="Loading..." visibility = "visible"/> -->
-</div>
-
-
-	<div id = "searchBoxContainer" class="dropdown-content">
-		<input type ="text" placeholder="Find your target..." id="searchInput"></div>
-
-<!-- 
+        <!-- 
 		<input type ="text", autofocus="true", placeholder="select your poision" id = searchInput></input> -->
-	</div>
-	<div id = "resultsDiv">
+        </div>
+        <div id="resultsDiv">
 
-		<ul id = "searchResults"></ul>
-	</div>
+            <ul id="searchResults"></ul>
+        </div>
 
-</section>
+    </section>
+    <script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
-</html>
 
+</html>
