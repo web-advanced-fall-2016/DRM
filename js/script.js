@@ -115,6 +115,10 @@ Dictionary.prototype.getMatches = function(key) {
     		return a.id - b.id;
     })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 =======
 
 >>>>>>> master
