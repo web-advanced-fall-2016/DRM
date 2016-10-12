@@ -114,6 +114,10 @@ Dictionary.prototype.getMatches = function(key) {
             results.sort(function(a,b) {
     		return a.id - b.id;
     })
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
             let firstHundred = results.slice(0,100);
             results = firstHundred;
         }
